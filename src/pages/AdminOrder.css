@@ -1,0 +1,116 @@
+/* Page container */
+.admin-orders-container {
+  min-height: 100vh;
+  padding: 30px 20px;
+  /* background: #0b0f19; */
+  color: #e5e7eb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading */
+.admin-orders-container h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* Empty state */
+.admin-orders-empty {
+  text-align: center;
+  font-size: 18px;
+  color: #9ca3af;
+}
+
+/* Orders wrapper */
+.admin-orders-list {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Order card */
+.admin-order-card {
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 10px;
+
+  padding: 18px 20px;
+  margin-bottom: 15px;
+
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.admin-order-card:hover {
+  background: #1f2937;
+  transform: translateY(-2px);
+}
+
+/* Product name */
+.admin-order-card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  color: #f9fafb;
+}
+
+/* Details */
+.admin-order-card p {
+  margin: 3px 0;
+  font-size: 15px;
+  color: #9ca3af;
+}
+
+/* Highlight user */
+.admin-order-card p:nth-child(2) {
+  color: #60a5fa; /* subtle blue for user */
+  font-size: 14px;
+}
+
+/* Divider */
+.admin-order-card hr {
+  border: none;
+  border-top: 1px solid #374151;
+  margin-top: 10px;
+}
+
+/* 🔽 Tablet */
+@media (max-width: 768px) {
+  .admin-orders-container {
+    padding: 20px 15px;
+  }
+
+  .admin-orders-container h2 {
+    font-size: 24px;
+  }
+
+  .admin-order-card {
+    padding: 15px;
+  }
+
+  .admin-order-card h3 {
+    font-size: 16px;
+  }
+
+  .admin-order-card p {
+    font-size: 14px;
+  }
+}
+
+/* 🔽 Mobile */
+@media (max-width: 480px) {
+  .admin-orders-container {
+    padding: 15px 10px;
+  }
+
+  .admin-orders-container h2 {
+    font-size: 22px;
+  }
+
+  .admin-orders-empty {
+    font-size: 16px;
+  }
+
+  .admin-order-card {
+    padding: 12px;
+  }
+}

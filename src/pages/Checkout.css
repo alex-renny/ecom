@@ -1,0 +1,149 @@
+/* Page container */
+.checkout-container {
+  min-height: 100vh;
+  padding: 30px 20px;
+  background: #070a12;
+  color: #ccc9c9;
+  font-family: 'Georgia', serif;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+/* Heading */
+.checkout-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Empty message */
+.checkout-empty {
+  text-align: center;
+  font-size: 18px;
+  color: #9ca3af;
+}
+
+/* Product list */
+.checkout-list {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Each item card */
+.checkout-item {
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 10px;
+
+  padding: 15px 20px;
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: 0.3s;
+}
+
+.checkout-item:hover {
+  transform: translateY(-2px);
+  background: #1f2937;
+}
+
+/* Product name */
+.checkout-item h3 {
+  font-size: 18px;
+  margin: 0;
+  color: #f9fafb;
+}
+
+/* Price */
+.checkout-item p {
+  margin: 0;
+  font-size: 16px;
+  color: #9ca3af;
+}
+
+/* Bottom section */
+.checkout-summary {
+  max-width: 700px;
+  margin: 30px auto 0;
+
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 10px;
+
+  padding: 20px;
+  text-align: center;
+}
+
+/* Total */
+.checkout-total {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.pay-btn {
+  width: 100%;
+  padding: 12px;
+
+  background: #1f2937;
+  color: #f9fafb;
+
+  border: 1px solid #4b5563;
+  border-radius: 8px;
+
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pay-btn:hover {
+  background: #374151;
+  transform: translateY(-2px);
+}
+
+.pay-btn:active {
+  transform: scale(0.97);
+}
+
+/* 🔽 Responsive */
+@media (max-width: 768px) {
+  .checkout-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .checkout-item h3 {
+    font-size: 16px;
+  }
+
+  .checkout-item p {
+    font-size: 14px;
+  }
+
+  .checkout-total {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .checkout-container {
+    padding: 20px 10px;
+  }
+
+  .checkout-container h2 {
+    font-size: 24px;
+  }
+
+  .pay-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

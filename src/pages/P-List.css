@@ -1,0 +1,90 @@
+/* Container */
+.plist-container {
+  padding: 40px 20px;
+  min-height: 100vh;
+  /* background: linear-gradient(135deg, #0f0f0f, #1c1c1c); */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.plist-title {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+/* Table wrapper (for responsiveness) */
+.table-wrapper {
+  max-width: 900px;
+  margin: auto;
+  overflow-x: auto;
+  border-radius: 12px;
+}
+
+/* Table */
+.plist-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Header */
+.plist-table thead {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.plist-table th {
+  padding: 15px;
+  text-align: left;
+  color: #f1f1f1;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Rows */
+.plist-table td {
+  padding: 14px;
+  color: #ddd;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Hover effect */
+.plist-table tbody tr {
+  transition: all 0.25s ease;
+}
+
+.plist-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: scale(1.01);
+}
+
+/* Price styling */
+.price {
+  color: #00ffae;
+  font-weight: bold;
+}
+
+/* Empty message */
+.no-data {
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+  .plist-title {
+    font-size: 1.5rem;
+  }
+
+  .plist-table th,
+  .plist-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
