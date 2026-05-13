@@ -186,7 +186,9 @@ function Home() {
           <div className="footer-top">
             <div className="footer-brand">
               <h2 className="footer-logo">FACINOVA</h2>
-              <p>Your Satisfaction is our Consern</p>
+              <p>Your Satisfaction is our Consern</p><br />
+              <h6>Connect with us: </h6>
+              <p>facinova@gmail.com</p>
             </div>
             <div className="footer-links">
               <div className="link-group">
