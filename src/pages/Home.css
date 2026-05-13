@@ -498,6 +498,7 @@ blockquote {
 .footer-legal {
   display: flex;
   gap: 28px;
+  padding: 0 5%;
 }
 
 .footer-legal a {

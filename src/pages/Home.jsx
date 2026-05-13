@@ -150,7 +150,7 @@ function Home() {
           <div className="footer-top">
             <div className="footer-brand">
               <h2 className="footer-logo">FACINOVA</h2>
-              <p>Maison de Couture Est. 2024</p>
+              <p>Your Satisfaction is our Consern</p>
             </div>
             <div className="footer-links">
               <div className="link-group">
@@ -183,7 +183,7 @@ function Home() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>© 2026 Facinova. All rights reserved.</p>
+            {/* <p>© 2026 Facinova. All rights reserved.</p> */}
             <div className="footer-legal">
               <a href="#">Privacy Policy</a>
               <a href="#">Terms of Service</a>
