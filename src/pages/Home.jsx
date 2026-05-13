@@ -1,7 +1,19 @@
-import React from "react";
+import React,{useState} from "react";
 import "./Home.css";
 
 function Home() {
+
+  const [activeCategory, setActiveCategory] = useState('all');
+
+  // const categories = ['All', 'New Arrivals', 'Best Sellers', 'Accessories', 'Footwear'];
+  
+  const products = [
+    { id: 1, name: 'Classic Leather Watch', price: 299.99, rating: 4.8, image: '⌚', badge: 'New' },
+    { id: 2, name: 'Premium Sunglasses', price: 189.99, rating: 4.6, image: '🕶️', badge: 'Hot' },
+    { id: 3, name: 'Designer Handbag', price: 459.99, rating: 4.9, image: '👜', badge: 'Sale' },
+    { id: 4, name: 'Luxury Footwear', price: 349.99, rating: 4.7, image: '👞', badge: 'New' },
+  ];
+
   return (
     <div className="landing-container">
 
@@ -88,45 +100,53 @@ function Home() {
       </section>
 
       {/* Collection Section */}
-      <section className="collection-section">
-        <h2>Trending Collections</h2>
 
-        <div className="collection-grid">
+      <section className="categories-section" id="shop">
+        <div className="section-header">
+          <p className="section-subtitle">Curated For You</p>
+          <h2 className="section-title">Trending Categories</h2>
+          <p className="section-description">
+            Explore our handpicked collections designed for the discerning taste
+          </p>
+        </div>
+        
+        {/* <div className="category-filters">
+          {categories.map((cat, idx) => (
+            <button
+              key={idx}
+              className={`filter-btn ${activeCategory === cat.toLowerCase() ? 'active' : ''}`}
+              onClick={() => setActiveCategory(cat.toLowerCase())}
+            >
+              {cat}
+            </button>
+          ))}
+        </div> */}
 
-            <div className="collection-card">
-            <img
-              src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
-              alt="Shoes"
-            />
-            <div className="overlay">
-              <h3>Luxury Sneakers</h3>
+        <div className="products-grid">
+          {products.map((product) => (
+            <div key={product.id} className="product-card">
+              <div className="product-image">
+                <span className="product-emoji">{product.image}</span>
+                <span className="product-badge">{product.badge}</span>
+                {/* <div className="product-overlay">
+                  <button className="add-to-cart">Add to Cart</button>
+                  <button className="wishlist-btn">♡</button>
+                </div> */}
+              </div>
+              <div className="product-info">
+                <h3>{product.name}</h3>
+                <div className="product-rating">
+                  <span>Starting From..</span>
+                </div>
+                <p className="product-price">${product.price}</p>
+              </div>
             </div>
-          </div>
-
-          <div className="collection-card">
-            <img
-              src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
-              alt="Camera"
-            />
-            <div className="overlay">
-              <h3>Modern Gadgets</h3>
-            </div>
-          </div>
-
-          <div className="collection-card">
-            <img
-              src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
-              alt="Headphones"
-            />
-            <div className="overlay">
-              <h3>Premium Audio</h3>
-            </div>
-          </div>
-
+          ))}
         </div>
       </section>
 
-      {/* Testimonial / Brand Statement */}
+      {/* Brand Statement */}
+
       <section className="quote-section">
         <div className="container">
           <div className="quote-content">
@@ -137,7 +157,7 @@ function Home() {
               Style is a way to say who you are without having to speak. 
               At Facinova, we believe in the quiet confidence of impeccable taste.
             </blockquote>
-            <p className="quote-author">— The Facinova Manifesto</p>
+            <p className="quote-author">— The Facinova </p>
           </div>
         </div>
       </section>
