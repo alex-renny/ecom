@@ -29,10 +29,26 @@ function Home() {
           <div className="glow-circle"></div>
 
           <img
-            src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+            src="/ChatGPT Image Apr 30, 2026, 11_11_36 AM (1).png"
             alt="shopping"
           />
         </div>
+
+        {/* <div className="hero-visual">
+          <div className="floating-card card1">
+            <span className="card-emoji">👗</span>
+            <p>Exclusive Designs</p>
+          </div>
+          <div className="floating-card card2">
+            <span className="card-emoji">💎</span>
+            <p>Premium Quality</p>
+          </div>
+          <div className="floating-card card3">
+            <span className="card-emoji">🚀</span>
+            <p>Fast Delivery</p>
+          </div>
+        </div> */}
+
       </section>
 
       {/* Features Section */}

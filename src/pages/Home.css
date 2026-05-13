@@ -159,6 +159,48 @@ body{
     top: 100px;
 }
 
+/* Hero Visual */
+/* .hero-visual {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.floating-card {
+  position: absolute;
+  background: rgba(26, 26, 26, 0.8);
+  backdrop-filter: blur(20px);
+  padding: 2.5rem;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  box-shadow: rgb(21, 51, 119);
+  animation: float 3s ease-in-out infinite;
+  text-align: center;
+}
+
+.card-emoji {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.floating-card p {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
+.card1 { top: 10%; right: 20%; animation-delay: 0s; }
+.card2 { top: 45%; right: 5%; animation-delay: 1s; }
+.card3 { top: 70%; right: 25%; animation-delay: 2s; }
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+} */
+
 
 /* ==================== FEATURES SECTION ==================== */
 
