@@ -35,6 +35,28 @@ body{
 }
 
 /* Hero Section */
+.hero-content {
+  /* Make sure these are visible */
+  opacity: 1 !important;  /* or just 1 */
+  transform: translateY(0) !important;  /* or just 0 */
+  visibility: visible !important;
+}
+
+/* If there's an animation that's keeping it hidden */
+.hero-section .hero-content {
+  animation: fadeInContent 0.8s ease forwards;
+}
+
+@keyframes fadeInContent {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 .hero-section{
     width: 100%;
