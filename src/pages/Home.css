@@ -63,7 +63,10 @@ body{
 .hero-content{
     flex: 1;
     text-align: left;
-    margin-left: -5%;
+
+    /* It Moves the Content in Home to Left but Affects the UserINdex */
+    
+    /* margin-left: -5%; */
 }
 
 .tagline{

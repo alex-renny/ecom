@@ -4,7 +4,7 @@ import "./UserIndex.css";
 /* ------------------ SLIDER DATA ------------------ */
 const slides = [
   {
-    image: "/pngtree-gadgets-in-a-striking-3d-dim-environment-picture-image_7276667.jpg",
+    image: "/6c28aa638948b773cdd601b7b4000aa3.jpg",
     title: "Top Tech Gear",
     subtitle: "FOR YOUR LIFESTYLE",
     desc: "Explore the latest gadgets & accessories curated for modern living.",
