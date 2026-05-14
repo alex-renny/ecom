@@ -34,14 +34,6 @@ body{
     overflow-x: hidden;
 }
 
-/* Hero Section */
-.hero-content {
-  /* Make sure these are visible */
-  opacity: 1 !important;  /* or just 1 */
-  transform: translateY(0) !important;  /* or just 0 */
-  visibility: visible !important;
-}
-
 /* If there's an animation that's keeping it hidden */
 .hero-section .hero-content {
   animation: fadeInContent 0.8s ease forwards;
@@ -71,6 +63,7 @@ body{
 .hero-content{
     flex: 1;
     text-align: left;
+    margin-left: -5%;
 }
 
 .tagline{
@@ -106,7 +99,7 @@ body{
 
 .hero-description{
     color: #b0b0b0;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 32px;
     max-width: 600px;
     margin-bottom: 35px;
