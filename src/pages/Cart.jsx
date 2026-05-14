@@ -125,14 +125,14 @@ function Cart() {
     }, 0)
 
     const discountAmount = (subtotal * discount) / 100
-    const shipping = subtotal > 2000 ? 0 : 199
-    const total = subtotal - discountAmount + shipping 
+    // const shipping = subtotal > 2000 ? 0 : 199
+    const total = subtotal - discountAmount 
 
     const itemCount = cart.reduce((sum, item) => sum + (item.quantity || 1), 0)
 
     // Save for free shipping
-    const freeShippingThreshold = 2000
-    const amountForFreeShipping = Math.max(0, freeShippingThreshold - subtotal)
+    // const freeShippingThreshold = 2000
+    // const amountForFreeShipping = Math.max(0, freeShippingThreshold - subtotal)
 
     const handleCheckout = () => {
         if (cart.length === 0) {
@@ -189,7 +189,7 @@ function Cart() {
                             </div>
 
                             {/* Free Shipping Progress */}
-                            {amountForFreeShipping > 0 && (
+                            {/* {amountForFreeShipping > 0 && (
                                 <div className="free-shipping-banner">
                                     <div className="shipping-icon">
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -206,7 +206,7 @@ function Cart() {
                                         </div>
                                     </div>
                                 </div>
-                            )}
+                            )} */}
 
                             {/* Cart Items List */}
                             <div className="cart-items-list">
@@ -354,14 +354,14 @@ function Cart() {
                                         </div>
                                     )}
                                     
-                                    <div className="price-row">
+                                    {/* <div className="price-row">
                                         <span>Shipping</span>
                                         {shipping === 0 ? (
                                             <span className="free-shipping">FREE</span>
                                         ) : (
                                             <span>₹{shipping.toLocaleString()}</span>
                                         )}
-                                    </div>
+                                    </div> */}
                                 
                                     
                                     <div className="price-divider"></div>
