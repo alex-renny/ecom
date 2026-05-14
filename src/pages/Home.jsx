@@ -1,7 +1,14 @@
 import React,{useState} from "react";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
 
 function Home() {
+
+  const navigate=useNavigate()
+  
+  const handleshop=()=>{
+    navigate('/Login')
+  }
 
   const [activeCategory, setActiveCategory] = useState('all');
 
@@ -18,7 +25,7 @@ function Home() {
     <div className="landing-container">
 
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="hero-section" id="hero">
         <div className="hero-content">
           <p className="tagline">PREMIUM SHOPPING EXPERIENCE</p>
 
@@ -32,8 +39,8 @@ function Home() {
           </p>
 
           <div className="hero-buttons">
-            <button className="shop-btn">Shop Now</button>
-            <button className="explore-btn">Explore</button>
+            <button className="shop-btn" onClick={handleshop}>Shop Now</button>
+            <button className="explore-btn" onClick={handleshop}>Explore</button>
           </div>
         </div>
 
@@ -181,7 +188,7 @@ function Home() {
 
       {/* Footer */}
 
-      <footer className="footer-section">
+      <footer className="footer-section" id="foot">
         <div className="container">
           <div className="footer-top">
             <div className="footer-brand">
