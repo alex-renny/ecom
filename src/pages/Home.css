@@ -8,7 +8,7 @@
   --bg-elevated: #1a1a1a;
   --border-color: #333;
   --border-light: #222;
-  --text-primary: #e9e5df;
+  --text-primary: white;
   --text-muted: #b0b0b0;
 }
 
@@ -472,6 +472,22 @@ blockquote {
 
 .newsletter-form input::placeholder {
   color: var(--text-muted);
+}
+
+.subs-btn{
+    background: linear-gradient(135deg,#b88cff,#7b3cff);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: 500;
+}
+
+.subs-btn:hover{
+    transform: translateY(-2px);
+    background: linear-gradient(135deg,#7b3cff,#b88cff);
 }
 
 /* ==================== FOOTER SECTION ==================== */

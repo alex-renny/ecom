@@ -129,7 +129,7 @@
 }
 
 .brand-f {
- background: linear-gradient(135deg, #b88cff, #7b3cff);
+  background: linear-gradient(135deg, #b88cff, #7b3cff);
   
   background-clip: text;
   -webkit-background-clip: text;

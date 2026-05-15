@@ -180,7 +180,7 @@ function Home() {
             </div>
             <div className="newsletter-form">
               <input type="email" placeholder="Your email address" />
-              <button className="btn btn-primary">Subscribe</button>
+              <button className="subs-btn">Subscribe</button>
             </div>
           </div>
         </div>

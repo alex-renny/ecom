@@ -76,7 +76,7 @@ function Register() {
             {/* Background Image - PRESERVED */}
             <img 
                 className="reg-bg-image" 
-                src="/Gemini_Generated_Image_ltl3d6ltl3d6ltl3-Photoroom-Photoroom-Photoroom.png" 
+                src="/c44f4f18-0597-4bb5-9f8d-e5dd4f772a40-Photoroom.png" 
                 alt="FACINOVA Background" 
             />
 
