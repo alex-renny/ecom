@@ -34,7 +34,7 @@ function UserProduct() {
                     id: 2,
                     name: "Premium Headphones",
                     price: 1220,
-                    image: "/0d8c0b01a9cc6cb914035d9f1ad4206c.jpg",
+                    image: "/ba6b0d98e478d4479280dfa188c892fc.jpg",
                     category: "Audio",
                     rating: 4.6,
                     reviews: 189,
