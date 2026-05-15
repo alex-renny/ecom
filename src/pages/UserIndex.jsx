@@ -12,7 +12,7 @@ const slides = [
     badge: "New Collection",
   },
   {
-    image: "/0d8c0b01a9cc6cb914035d9f1ad4206c.jpg",
+    image: "/ba6b0d98e478d4479280dfa188c892fc.jpg",
     title: "Premium Audio",
     subtitle: "EXPERIENCE PERFECTION",
     desc: "Immerse yourself in crystal-clear sound with our premium headphone collection.",
