@@ -747,9 +747,23 @@ blockquote {
 }
 
 .section-header {
+  width: 100%;
   text-align: center;
-  margin-bottom: 5rem;
-  position: relative;
+  margin-bottom: 4rem;
+  padding-top: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.section-subtitle,
+.section-title,
+.section-description {
+  margin: 0;
+  width: 100%;
 }
 
 .section-subtitle {
@@ -790,7 +804,7 @@ blockquote {
 }
 
 .section-description {
-  color: white;
+  color: rgb(229, 232, 248);
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.8;
