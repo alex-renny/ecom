@@ -170,7 +170,7 @@ body{
 .glow-circle{
     width: 350px;
     height: 350px;
-    background: rgba(123,60,255,0.3);
+    background: rgba(35, 3, 104, 0.3);
     position: absolute;
     border-radius: 50%;
     filter: blur(90px);

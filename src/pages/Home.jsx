@@ -48,7 +48,7 @@ function Home() {
           <div className="glow-circle"></div>
 
           <img
-            src="/ChatGPT Image Apr 30, 2026, 11_11_36 AM (1).png"
+            src="/d2f9ba4d-f0f8-437a-8471-5319a9f948dd-Photoroom.png"
             alt="shopping"
           />
         </div>
