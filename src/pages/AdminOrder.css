@@ -445,7 +445,7 @@
   width: 90px;
   height: 90px;
   margin: 0 auto 1.5rem;
-  background: rgba(245, 158, 11, 0.1);
+  background: rgba(203, 139, 246, 0.1);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -455,7 +455,7 @@
 .ao-empty-icon svg {
   width: 44px;
   height: 44px;
-  color: #f59e0b;
+  color: #9e3be4;
 }
 
 .ao-empty h3 {
@@ -470,7 +470,7 @@
 
 .ao-empty button {
   padding: 0.75rem 2rem;
-  background: linear-gradient(135deg, #f59e0b, #d97706);
+  background: linear-gradient(135deg, #b88cff, #7b3cff);
   border: none;
   border-radius: 50px;
   color: white;
@@ -482,7 +482,6 @@
 
 .ao-empty button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(245, 158, 11, 0.3);
 }
 
 /* ============================================ */

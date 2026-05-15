@@ -107,6 +107,124 @@ function UserProduct() {
                     badge: "Trending",
                     description: "Active noise cancellation with crystal clarity"
                 },
+                {
+                    id: 9,
+                    name: "Light blue, long-sleeved floor-length Anarkali suit",
+                    price: 800,
+                    image: "/33c9a47ccdd26be096f598f5321b482b.jpg",
+                    category: "New",
+                    rating: 4.8,
+                    reviews: 423,
+                    badge: "Trending",
+                    description: "Crafted from faux georgette, this ready-to-wear piece comes with a contrast dupatta."
+                },
+                {
+                id: 10,
+                name: "Elegant Floral Printed Saree",
+                price: 1450,
+                image: "/4e3ee98e8292e5cd952e3a6bc63d0d52.jpg",
+                category: "Sarees",
+                rating: 4.7,
+                reviews: 318,
+                badge: "Best Seller",
+                description: "Soft silk blend saree with floral patterns and premium golden border."
+                },
+                {
+                    id: 11,
+                    name: "Classic White Sneakers",
+                    price: 2200,
+                    image: "/c7ac1d4e6758646ce85d92c144995cb4.jpg",
+                    category: "Shoes",
+                    rating: 4.6,
+                    reviews: 287,
+                    badge: "Trending",
+                    description: "Lightweight casual sneakers with cushioned sole for all-day comfort."
+                },
+
+                {
+                    id: 12,
+                    name: "Matte Finish Lipstick Set",
+                    price: 699,
+                    image: "/3701a6c8c8890b48d1bcdcc04a807305.jpg",
+                    category: "Makeup",
+                    rating: 4.5,
+                    reviews: 512,
+                    badge: "Hot",
+                    description: "Long-lasting waterproof lipstick combo with vibrant matte shades."
+                },
+
+                {
+                    id: 13,
+                    name: "Rose Gold Makeup Brush Kit",
+                    price: 950,
+                    image: "/97c54533f15b61481c2d948b821dcd97.jpg",
+                    category: "Beauty",
+                    rating: 4.8,
+                    reviews: 199,
+                    badge: "Premium",
+                    description: "Professional soft-bristle brush set for flawless makeup application."
+                },
+
+                {
+                    id: 14,
+                    name: "Modern Cotton Kurti Set",
+                    price: 1200,
+                    image: "/bbc0bc78e111d35bf8539a1294d1fe66.jpg",
+                    category: "Dress",
+                    rating: 4.4,
+                    reviews: 276,
+                    badge: "New",
+                    description: "Comfortable ethnic kurti set designed with modern printed patterns."
+                },
+
+                {
+                    id: 15,
+                    name: "Luxury Heeled Sandals",
+                    price: 1850,
+                    image: "/3669d3a22ef9a0a01bbc415fa3addfe9.jpg",
+                    category: "Shoes",
+                    rating: 4.7,
+                    reviews: 164,
+                    badge: "Trending",
+                    description: "Stylish block heels with elegant straps perfect for parties and events."
+                },
+
+                {
+                    id: 16,
+                    name: "South Asian Anarkali suit",
+                    price: 4999,
+                    image: "/511a39afb6afca0363ab08b0991f5c5c.jpg",
+                    category: "Kurthi",
+                    rating: 4.9,
+                    reviews: 742,
+                    badge: "Best",
+                    description: "Particular style features a deep maroon or burgundy color with minimal aesthetic detailing."
+                },
+
+                
+                {
+                    id: 17,
+                    name: "Designer Party Wear Gown",
+                    price: 3200,
+                    image: "/fe8485b779be6ba69e2da34605545afb.jpg",
+                    category: "Dress",
+                    rating: 4.8,
+                    reviews: 354,
+                    badge: "Premium",
+                    description: "Elegant floor-length gown with sequin detailing and soft net fabric."
+                },
+
+                {
+                    id: 18,
+                    name: "Traditional Banarasi Saree",
+                    price: 2800,
+                    image: "/5c1de393fb9a61f5601ba72d469f0069.jpg",
+                    category: "Sarees",
+                    rating: 4.9,
+                    reviews: 468,
+                    badge: "Sale",
+                    description: "Rich Banarasi weave saree featuring intricate zari work and premium finish."
+                }
                 
             ]
 
