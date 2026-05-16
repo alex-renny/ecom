@@ -338,6 +338,7 @@
 }
 
 @media (max-width: 900px) {
+
   .admin-hamburger {
     display: flex;
   }
@@ -346,18 +347,32 @@
     position: fixed;
     top: 0;
     right: -100%;
+
     height: 100vh;
-    width: 300px;
+
+    width: 280px;
+    max-width: 80%;
+
     background: rgba(10, 10, 15, 0.98);
+
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     gap: 1rem;
-    transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+    transition: right 0.4s ease;
+
     box-shadow: -10px 0 50px rgba(0, 0, 0, 0.5);
+
     padding: 2rem 1rem;
+
+    border-left: 1px solid rgba(255,255,255,0.08);
+
+    z-index: 999;
   }
 
   .admin-nav-links.active {
@@ -365,44 +380,20 @@
   }
 
   .admin-nav-link {
-    font-size: 1.1rem;
-    padding: 0.8rem 1.5rem;
-    width: 100%;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    width: 90%;
     justify-content: center;
-  }
-
-  .nav-link-icon {
-    width: 20px;
-    height: 20px;
   }
 
   .admin-logout-btn {
-    margin-left: 0;
-    width: 100%;
+    width: 90%;
     justify-content: center;
+    margin-left: 0;
     margin-top: 0.5rem;
   }
 
   .admin-nav-container {
-    padding: 0.8rem 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .admin-nav-links {
-    width: 100%;
-  }
-
-  .admin-logo-wrapper {
-    width: 35px;
-    height: 35px;
-  }
-
-  .admin-brand-text {
-    font-size: 1.1rem;
-  }
-  
-  .admin-text-panel {
-    font-size: 0.7rem;
+    padding: 0.8rem 1rem;
   }
 }
