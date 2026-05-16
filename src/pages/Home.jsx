@@ -48,7 +48,7 @@ function Home() {
           <div className="glow-circle"></div>
 
           <img
-            src="/d2f9ba4d-f0f8-437a-8471-5319a9f948dd-Photoroom.png"
+            src="/cf4cb43e-ba1d-4968-886c-fec76063d92f-Photoroom.png"
             alt="shopping"
           />
         </div>
